@@ -339,7 +339,8 @@ main {
 }
 
 .sidebar.active {
-  max-height: 405px;
+  /* allow enough height for expanded contacts (birthday, address, etc.) */
+  max-height: 999px;
 }
 
 .sidebar-info {
@@ -1435,7 +1436,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .sidebar.active {
-    max-height: 584px;
+    /* allow enough height on larger screens when expanded */
+    max-height: 999px;
   }
 
   .sidebar-info {
